@@ -1,0 +1,24 @@
+	echo ""
+if [ ! -f "/tmp/sapdownloads/installed" ];then
+	echo "*** Install SAP Developer Edition 7.52 SP04 ***"
+	echo ""
+	echo "Run following commands:"
+	echo "$ cd /tmp/sapdownloads"
+	echo "$ ./install.sh -k"
+else
+	echo "*** SAP Developer Edition 7.5.2 SP04 ***"
+	echo `cat "/tmp/sapdownloads/installed"`
+	echo ""
+	echo "Start SAP:"
+	echo "/usr/sbin/uuidd"
+	echo "su npladm"
+	echo "startsap ALL"
+	echo ""
+	echo "Stop SAP:"
+	echo "su npladm"
+	echo "stopsap ALL"
+	echo "exit"
+fi
+	echo ""
+	echo "*** *** *** *** *** *** *** *** *** *** *** ***"
+	echo ""
