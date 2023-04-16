@@ -3,7 +3,7 @@
 Donwload SAP ABAP Developer Edition 7.52 SP04 from  
 https://developers.sap.com/trials-downloads.html
 
-Extract Archives into director `sapdownloads` so the content has the structure like: 
+Extract archives into director `sapdownloads` so the content has the structure like: 
 ```
     /sapdownloads/
         - /client/
