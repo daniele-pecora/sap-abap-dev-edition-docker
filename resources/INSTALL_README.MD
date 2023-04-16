@@ -134,4 +134,4 @@ This are the changes that were made after docker build:
     ```bash
     echo "172.17.0.2      vhcalnplci.dummy.nodomain       vhcalnplci" >> /etc/hosts
     ```
-    this is not needed when running with docker `-h` (hostname) `-h vhcalnplci.dummy.nodomain`
+    this is not needed when running with docker with `-h vhcalnplci`
