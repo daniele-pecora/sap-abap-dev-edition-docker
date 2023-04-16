@@ -13,7 +13,10 @@ Min 100Gb free harddrive space and min 16Gb RAM.
 
 ## 1) Install from Docker-Hub
 
-Pull image and create a container directly from Docker-Hub
+Pull image and create a container directly from Docker-Hub.  
+Here the SAP ABAP Developer Edition 7.52 SP04 are already contained.  
+The images has a size of 15GB and will grow to 60GB a.m. after installation.
+
 ```bash
 $ docker run -p 8000:8000 -p 44300:44300 -p 3300:3300 -p 3200:3200 -h vhcalnplci --name sap-abap-dev-edition -it yoraco/sap-dev-edition-7.52-sp04 /bin/bash
 ```
