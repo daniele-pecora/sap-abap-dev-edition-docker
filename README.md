@@ -2,7 +2,7 @@
 
 Use this to gain and test your ABAP skills.  
 
-You may either pull and run it directly read from Docker-Hub (variant #1)  
+You may either pull and run it directly from Docker-Hub (variant #1)  
 or create image and container yourself (variant #2)  
 
 ## Requirements
